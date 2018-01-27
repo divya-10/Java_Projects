@@ -5,3 +5,7 @@ leetcode-divya/bin/org/leetcode/divya/sumoftwonumbers/Test2.class
 *.prefs
 leetcode-divya/.project
 leetcode-divya/.classpath
+leetcode-solutions/.project
+leetcode-solutions/.classpath
+leetcode-solutions/target/classes/META-INF/MANIFEST.MF
+leetcode-solutions/target/classes/META-INF/maven/org.divya.javasolutions/leetcode-solutions/pom.properties
