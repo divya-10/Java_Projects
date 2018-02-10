@@ -16,14 +16,27 @@ package org.leetcode.divya.reverseinteger;
  * purpose of this problem, assume that your function returns 0 when the
  * reversed integer overflows.
  * 
- * @author Praveen
+ * @author Divya
  *
  */
 public class ReverseInteger {
+	public static int reverse(int x) {
+		long result = 0;
+		while(x !=0) {
+			result = (result * 10) + (x%10);
+			if(result > Integer.MAX_VALUE)
+				return 0;
+			if(result < Integer.MIN_VALUE)
+				return 0;
+			x = x/10;
+		}
+		return(int)result;
+		}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int x = 456;
+		int result = reverse(x);
+		System.out.println("The Reversr Integer of x is : "+result );
 	}
 
 }
