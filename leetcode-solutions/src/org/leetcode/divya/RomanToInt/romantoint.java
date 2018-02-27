@@ -1,5 +1,5 @@
 package org.leetcode.divya.RomanToInt;
-
+import java.lang.String;
 public class romantoint {
 	public static int RomanToInt(String s) {
 		char [] l = s.toCharArray();
@@ -36,7 +36,9 @@ public class romantoint {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-	}
-
+		String s= "MDVI";
+		System.out.println("The given Roman vaule : " + s);
+		int a = RomanToInt(s);
+		System.out.println("the integer value :"+ a);
+		}
 }
