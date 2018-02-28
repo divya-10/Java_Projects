@@ -15,7 +15,7 @@ author
 Divya
 */
 
-public class palidromen {
+public class Palidromen {
 	public static boolean ispalindrome(int x) {
 		if (x <0)
 			return false;

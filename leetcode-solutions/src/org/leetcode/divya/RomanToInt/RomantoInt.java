@@ -1,6 +1,6 @@
 package org.leetcode.divya.RomanToInt;
 import java.lang.String;
-public class romantoint {
+public class RomantoInt {
 	public static int RomanToInt(String s) {
 		char [] l = s.toCharArray();
 		int [] n = new int [l.length];
